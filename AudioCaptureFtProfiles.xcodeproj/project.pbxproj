@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D2121992193999100A423DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2121982193999100A423DE /* AppDelegate.swift */; };
+		6D21219E2193999100A423DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D21219C2193999100A423DE /* Main.storyboard */; };
+		6D2121A02193999200A423DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D21219F2193999200A423DE /* Assets.xcassets */; };
+		6D2121A32193999200A423DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2121A12193999200A423DE /* LaunchScreen.storyboard */; };
+		6D2121AE2193999200A423DE /* AudioCaptureFtProfilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2121AD2193999200A423DE /* AudioCaptureFtProfilesTests.swift */; };
+		6D2121B92193999200A423DE /* AudioCaptureFtProfilesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2121B82193999200A423DE /* AudioCaptureFtProfilesUITests.swift */; };
+		6D2121C7219399B000A423DE /* AudioCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2121C6219399B000A423DE /* AudioCaptureViewController.swift */; };
+		6D2121C921939AF100A423DE /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2121C821939AF100A423DE /* extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D2121AA2193999200A423DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D21218D2193999100A423DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D2121942193999100A423DE;
+			remoteInfo = "AudioCaptureFtProfiles";
+		};
+		6D2121B52193999200A423DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D21218D2193999100A423DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D2121942193999100A423DE;
+			remoteInfo = "AudioCaptureFtProfiles";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D2121952193999100A423DE /* AudioCaptureFtProfiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioCaptureFtProfiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2121982193999100A423DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D21219D2193999100A423DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D21219F2193999200A423DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D2121A22193999200A423DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D2121A42193999200A423DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2121A92193999200A423DE /* AudioCaptureFtProfilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioCaptureFtProfilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2121AD2193999200A423DE /* AudioCaptureFtProfilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCaptureFtProfilesTests.swift; sourceTree = "<group>"; };
+		6D2121AF2193999200A423DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2121B42193999200A423DE /* AudioCaptureFtProfilesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioCaptureFtProfilesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2121B82193999200A423DE /* AudioCaptureFtProfilesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCaptureFtProfilesUITests.swift; sourceTree = "<group>"; };
+		6D2121BA2193999200A423DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2121C6219399B000A423DE /* AudioCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCaptureViewController.swift; sourceTree = "<group>"; };
+		6D2121C821939AF100A423DE /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D2121922193999100A423DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2121A62193999200A423DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2121B12193999200A423DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D21218C2193999100A423DE = {
+			isa = PBXGroup;
+			children = (
+				6D2121972193999100A423DE /* AudioCaptureFtProfiles */,
+				6D2121AC2193999200A423DE /* AudioCaptureFtProfilesTests */,
+				6D2121B72193999200A423DE /* AudioCaptureFtProfilesUITests */,
+				6D2121962193999100A423DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D2121962193999100A423DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D2121952193999100A423DE /* AudioCaptureFtProfiles.app */,
+				6D2121A92193999200A423DE /* AudioCaptureFtProfilesTests.xctest */,
+				6D2121B42193999200A423DE /* AudioCaptureFtProfilesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D2121972193999100A423DE /* AudioCaptureFtProfiles */ = {
+			isa = PBXGroup;
+			children = (
+				6D2121C6219399B000A423DE /* AudioCaptureViewController.swift */,
+				6D2121982193999100A423DE /* AppDelegate.swift */,
+				6D21219C2193999100A423DE /* Main.storyboard */,
+				6D2121C821939AF100A423DE /* extensions.swift */,
+				6D21219F2193999200A423DE /* Assets.xcassets */,
+				6D2121A12193999200A423DE /* LaunchScreen.storyboard */,
+				6D2121A42193999200A423DE /* Info.plist */,
+			);
+			path = AudioCaptureFtProfiles;
+			sourceTree = "<group>";
+		};
+		6D2121AC2193999200A423DE /* AudioCaptureFtProfilesTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D2121AD2193999200A423DE /* AudioCaptureFtProfilesTests.swift */,
+				6D2121AF2193999200A423DE /* Info.plist */,
+			);
+			path = AudioCaptureFtProfilesTests;
+			sourceTree = "<group>";
+		};
+		6D2121B72193999200A423DE /* AudioCaptureFtProfilesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D2121B82193999200A423DE /* AudioCaptureFtProfilesUITests.swift */,
+				6D2121BA2193999200A423DE /* Info.plist */,
+			);
+			path = AudioCaptureFtProfilesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D2121942193999100A423DE /* AudioCaptureFtProfiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2121BD2193999200A423DE /* Build configuration list for PBXNativeTarget "AudioCaptureFtProfiles" */;
+			buildPhases = (
+				6D2121912193999100A423DE /* Sources */,
+				6D2121922193999100A423DE /* Frameworks */,
+				6D2121932193999100A423DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioCaptureFtProfiles;
+			productName = "AudioCaptureFtProfiles";
+			productReference = 6D2121952193999100A423DE /* AudioCaptureFtProfiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D2121A82193999200A423DE /* AudioCaptureFtProfilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2121C02193999200A423DE /* Build configuration list for PBXNativeTarget "AudioCaptureFtProfilesTests" */;
+			buildPhases = (
+				6D2121A52193999200A423DE /* Sources */,
+				6D2121A62193999200A423DE /* Frameworks */,
+				6D2121A72193999200A423DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D2121AB2193999200A423DE /* PBXTargetDependency */,
+			);
+			name = AudioCaptureFtProfilesTests;
+			productName = "AudioCaptureFtProfilesTests";
+			productReference = 6D2121A92193999200A423DE /* AudioCaptureFtProfilesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D2121B32193999200A423DE /* AudioCaptureFtProfilesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2121C32193999200A423DE /* Build configuration list for PBXNativeTarget "AudioCaptureFtProfilesUITests" */;
+			buildPhases = (
+				6D2121B02193999200A423DE /* Sources */,
+				6D2121B12193999200A423DE /* Frameworks */,
+				6D2121B22193999200A423DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D2121B62193999200A423DE /* PBXTargetDependency */,
+			);
+			name = AudioCaptureFtProfilesUITests;
+			productName = "AudioCaptureFtProfilesUITests";
+			productReference = 6D2121B42193999200A423DE /* AudioCaptureFtProfilesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D21218D2193999100A423DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Felipe Costa";
+				TargetAttributes = {
+					6D2121942193999100A423DE = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					6D2121A82193999200A423DE = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6D2121942193999100A423DE;
+					};
+					6D2121B32193999200A423DE = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6D2121942193999100A423DE;
+					};
+				};
+			};
+			buildConfigurationList = 6D2121902193999100A423DE /* Build configuration list for PBXProject "AudioCaptureFtProfiles" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D21218C2193999100A423DE;
+			productRefGroup = 6D2121962193999100A423DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D2121942193999100A423DE /* AudioCaptureFtProfiles */,
+				6D2121A82193999200A423DE /* AudioCaptureFtProfilesTests */,
+				6D2121B32193999200A423DE /* AudioCaptureFtProfilesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D2121932193999100A423DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2121A32193999200A423DE /* LaunchScreen.storyboard in Resources */,
+				6D2121A02193999200A423DE /* Assets.xcassets in Resources */,
+				6D21219E2193999100A423DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2121A72193999200A423DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2121B22193999200A423DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D2121912193999100A423DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2121C7219399B000A423DE /* AudioCaptureViewController.swift in Sources */,
+				6D2121992193999100A423DE /* AppDelegate.swift in Sources */,
+				6D2121C921939AF100A423DE /* extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2121A52193999200A423DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2121AE2193999200A423DE /* AudioCaptureFtProfilesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2121B02193999200A423DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2121B92193999200A423DE /* AudioCaptureFtProfilesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D2121AB2193999200A423DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D2121942193999100A423DE /* AudioCaptureFtProfiles */;
+			targetProxy = 6D2121AA2193999200A423DE /* PBXContainerItemProxy */;
+		};
+		6D2121B62193999200A423DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D2121942193999100A423DE /* AudioCaptureFtProfiles */;
+			targetProxy = 6D2121B52193999200A423DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D21219C2193999100A423DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D21219D2193999100A423DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D2121A12193999200A423DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D2121A22193999200A423DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D2121BB2193999200A423DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D2121BC2193999200A423DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D2121BE2193999200A423DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AudioCaptureFtProfiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fvc2m9.mizzou.AudioCaptureFtProfiles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D2121BF2193999200A423DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AudioCaptureFtProfiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fvc2m9.mizzou.AudioCaptureFtProfiles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D2121C12193999200A423DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AudioCaptureFtProfilesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Infotech-4425.Audio-Capture-and-PlaybackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioCaptureFtProfiles.app/AudioCaptureFtProfiles";
+			};
+			name = Debug;
+		};
+		6D2121C22193999200A423DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AudioCaptureFtProfilesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Infotech-4425.Audio-Capture-and-PlaybackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioCaptureFtProfiles.app/AudioCaptureFtProfiles";
+			};
+			name = Release;
+		};
+		6D2121C42193999200A423DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AudioCaptureFtProfilesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Infotech-4425.Audio-Capture-and-PlaybackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AudioCaptureFtProfiles";
+			};
+			name = Debug;
+		};
+		6D2121C52193999200A423DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AudioCaptureFtProfilesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fvc2m9.mizzou.AudioCaptureFtProfilesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AudioCaptureFtProfiles";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D2121902193999100A423DE /* Build configuration list for PBXProject "AudioCaptureFtProfiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2121BB2193999200A423DE /* Debug */,
+				6D2121BC2193999200A423DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2121BD2193999200A423DE /* Build configuration list for PBXNativeTarget "AudioCaptureFtProfiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2121BE2193999200A423DE /* Debug */,
+				6D2121BF2193999200A423DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2121C02193999200A423DE /* Build configuration list for PBXNativeTarget "AudioCaptureFtProfilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2121C12193999200A423DE /* Debug */,
+				6D2121C22193999200A423DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2121C32193999200A423DE /* Build configuration list for PBXNativeTarget "AudioCaptureFtProfilesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2121C42193999200A423DE /* Debug */,
+				6D2121C52193999200A423DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D21218D2193999100A423DE /* Project object */;
+}

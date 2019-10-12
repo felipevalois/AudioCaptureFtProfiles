@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Audio Capture View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AudioCaptureViewController" customModule="Audio_Capture_and_Playback" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zTJ-uU-PcQ">
+                                <rect key="frame" x="0.0" y="74" width="375" height="218"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="8bC-Xf-vdC" id="QDj-Gi-TKS"/>
+                                    <outlet property="delegate" destination="8bC-Xf-vdC" id="d4p-ss-roS"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of Channels: 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n9X-7D-Vpc">
+                                <rect key="frame" x="79" y="388" width="226" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="226" id="aU5-rV-Aep"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaR-pw-ltr">
+                                <rect key="frame" x="313" y="383" width="46" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="puM-es-Nsu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="addChannelBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lBr-Lh-4Bl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ati-pX-cOu">
+                                <rect key="frame" x="16" y="383" width="46" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="jNg-hl-n6a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="-"/>
+                                <connections>
+                                    <action selector="minusChannelBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hsb-5y-Gxb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJ0-5s-NRV">
+                                <rect key="frame" x="16" y="572" width="343" height="30"/>
+                                <state key="normal" title="Switch to Low Quality"/>
+                                <connections>
+                                    <action selector="switchQualityBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zkj-wr-Eyq"/>
+                                </connections>
+                            </button>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Drj-mz-lNw">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Item" image="record" id="8VE-k3-oiP"/>
+                                    <barButtonItem title="Item" image="play" id="vUa-fN-Wcs"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zaR-pw-ltr" firstAttribute="top" secondItem="zTJ-uU-PcQ" secondAttribute="bottom" constant="91" id="1z1-SW-zsl"/>
+                            <constraint firstItem="nJ0-5s-NRV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5Np-Fx-nmE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ati-pX-cOu" secondAttribute="bottom" constant="236" id="8Z5-qu-5Z8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nJ0-5s-NRV" secondAttribute="trailing" constant="16" id="Gcf-yf-NVl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="n9X-7D-Vpc" secondAttribute="bottom" constant="240" id="Hpg-XF-dxy"/>
+                            <constraint firstItem="zTJ-uU-PcQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KPb-F8-EnV"/>
+                            <constraint firstItem="n9X-7D-Vpc" firstAttribute="leading" secondItem="Ati-pX-cOu" secondAttribute="trailing" constant="17" id="Laj-A2-bWP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zaR-pw-ltr" secondAttribute="bottom" constant="236" id="QN1-ze-6gd"/>
+                            <constraint firstItem="Ati-pX-cOu" firstAttribute="top" secondItem="zTJ-uU-PcQ" secondAttribute="bottom" constant="91" id="acS-Wu-at7"/>
+                            <constraint firstItem="n9X-7D-Vpc" firstAttribute="top" secondItem="zTJ-uU-PcQ" secondAttribute="bottom" constant="96" id="bnw-hd-vxe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nJ0-5s-NRV" secondAttribute="bottom" constant="65" id="cd4-5J-jPS"/>
+                            <constraint firstItem="zaR-pw-ltr" firstAttribute="leading" secondItem="n9X-7D-Vpc" secondAttribute="trailing" constant="8" id="jw0-bM-xtV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zaR-pw-ltr" secondAttribute="trailing" constant="16" id="o4x-i2-4du"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zTJ-uU-PcQ" secondAttribute="trailing" id="s8m-VY-xxR"/>
+                            <constraint firstItem="zTJ-uU-PcQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="74" id="umU-Ub-MrI"/>
+                            <constraint firstItem="nJ0-5s-NRV" firstAttribute="top" secondItem="n9X-7D-Vpc" secondAttribute="bottom" constant="145" id="x9H-6c-Ipn"/>
+                            <constraint firstItem="Ati-pX-cOu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="yo8-w1-mGa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="audioQualityBTN" destination="nJ0-5s-NRV" id="rCJ-y8-gtm"/>
+                        <outlet property="channelLabel" destination="n9X-7D-Vpc" id="cxJ-Ql-gU3"/>
+                        <outlet property="pickerView" destination="zTJ-uU-PcQ" id="LgT-Ah-TT1"/>
+                        <outlet property="playBTN" destination="vUa-fN-Wcs" id="1K8-BJ-ugc"/>
+                        <outlet property="recordBTN" destination="8VE-k3-oiP" id="cAp-db-SIu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1612" y="184"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="play" width="23" height="24"/>
+        <image name="record" width="24" height="24"/>
+    </resources>
+</document>
